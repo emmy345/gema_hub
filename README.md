@@ -1,1 +1,1 @@
-# gamer_hub
+# game_hub
