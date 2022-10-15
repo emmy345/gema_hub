@@ -1,0 +1,88 @@
+.ach{
+    color: white;
+}
+
+.ads{
+    color: white;
+}
+
+.soccer{
+    color: white;
+}
+
+.action{
+    color: white;
+}
+
+.car{ 
+    color: white;
+}
+
+.bike{
+    color: white;
+}
+
+.chess{
+    color: white;
+}
+
+.games{
+    color: white;
+}
+
+.games_img{
+   height: 200px;
+   width: 300px;
+   border-radius: 20px;
+}
+
+.chess_img{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+ }
+
+ .bike_img{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+ }
+
+ .car_img{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+ }
+
+ .action_img{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+ }
+
+ .socc_img{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+ }
+
+ .ads_img{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px; 
+    border-color: gold;
+ }
+
+
+ .ach_img{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+ }
+
+ .bike_img a:hover{
+     background-color: rgb(205, 205, 241);
+
+ }
+
+ 

@@ -1,0 +1,33 @@
+.ads{
+    background-color: black;
+}
+
+.mineimg{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+} 
+
+.ads2{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+
+.ads3{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.ads4{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.group{
+    display: inline-block;
+}
+

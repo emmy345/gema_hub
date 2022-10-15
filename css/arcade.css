@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+
+.arc{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.arc2{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.arc3{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.arc4{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.group2{
+    display: inline-block;
+}

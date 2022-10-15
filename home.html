@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Game website Home page</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+    <header>
+        <div class="flex">
+            <div class="logo">
+                <img src="img/logo.png" alt="no image">
+
+            </div>
+            <nav>
+                <button id="nav-toggle" class="hamburger-menu">
+                    <span class="strip"></span>
+                    <span class="strip"></span>
+                    <span class="strip"></span>
+                </button>
+                <ul id="nav-menu-container">
+                    <li><a href="home.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Game</a>
+                        <div class="dropdown-content">
+                          <a href="adventuresgame.html">Adventures games</a>
+                          <a href="arcades games.html">Arcade games</a>
+                          <a href="bike.html">Bike Racing games</a>
+                          <a href="actiongame.html">Action games</a>
+                        </div>
+                    </li>   
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="forum.html">Forum</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+            </nav>
+            <a href="register.html" id="login-register-button">Login / Register</a>
+        </div>
+    </header>
+    <main>
+        <section id="hero-image">
+        <div class="hero-marketing-text">
+            <h1>The Best <span>Game</span> Out There</h1>
+            <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis architecto fuga, labore rem ea
+                maiores voluptas ad corrupti delectus illum aliquam corporis quibusdam eligendi laboriosam eum, velit,
+                reprehenderit blanditiis odit.</h5>
+            <button>read more</button>
+        </div>
+    </section>
+        <section id="latest-news">
+            <div class="flex">
+                <h5>Latest News</h5>
+                <div id="latest-news-container">
+                    <div class="latest-news-item">
+                        <span class="badge-new">New</span>
+                        <span class="latest-news-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="game-type-box">
+            <div class="flex">
+                <div class="box-new">
+                    <div class="shade"></div>
+                    <span class="badge-new">New</span>
+                    <div class="content">
+                        <h4>suspendisse ut justo tem por,rutrum </h4>
+                        <p>lorem ipsum dolor sit amet,consectectur adipisicing elit</p>
+                        <a href="#" class="comments">3 Comments</a>
+                    </div>
+                </div>
+                <div class="box-strategy">
+                    <div class="shade"></div>
+                    <span class="badge-strategy">Strategy</span>
+                    <div class="content">
+                        <h4>suspendisse ut justo tem por,rutrum </h4>
+                        <p>lorem ipsum dolor sit amet,consectectur adipisicing elit</p>
+                        <a href="#" class="comments">3 Comments</a>
+                    </div>
+                </div>
+                <div class="box-rpg">
+                    <div class="shade"></div>
+                    <span class="badge-rpg">Role Playing</span>
+                    <div class="content">
+                        <h4>suspendisse ut justo tem por,rutrum </h4>
+                        <p>lorem ipsum dolor sit amet,consectectur adipisicing elit</p>
+                        <a href="#" class="comments">3 Comments</a>
+                    </div>
+                </div>
+                <div class="box-racing">
+                    <div class="shade"></div>
+                    <span class="badge-racing">Racing</span>
+                    <div class="content">
+                        <h4>suspendisse ut justo tem por,rutrum </h4>
+                        <p>lorem ipsum dolor sit amet,consectectur adipisicing elit</p>
+                        <a href="#" class="comments">3 Comments</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="recent-game">
+            <h1>Recent Game</h1>
+            <div class="flex">
+                <div class="box">
+                    <span class="badge-new">New</span>
+                    <img src="img/recent1.jpg">
+                    <div class="box-lower-section">
+                        <h4>suspendisse ut justo tem por,rutrum</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <a href="" class="comment">3 Comments</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="badge-racing">Racing</span>
+                    <img src="img/recent2.jpg">
+                    <div class="box-lower-section">
+                        <h4>susce pulvinar metus nulla,ses facilisis sem</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="comment">3 Comments</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <span class="badge-rpg">Adventures</span>
+                    <img src="img/recent3.jpg">
+                    <div class="box-lower-section">
+                        <h4>suspendisse ut justo tem por,rutrum</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="comment">3 Comments</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tournaments">
+            <div class="flex">
+                <span class="badge tournaments">Tournaments</span>
+                <div class="box">
+                    <span class="badge premium-tournaments">Premium Tournaments</span>
+                    <div class="tournaments-image"><img src="img/tour1.jpg">
+                    </div>
+                    <div class="tournaments-content">
+                        <h3>Starcraft 2</h3>
+                        <div><label>Tournament Begins:</label><strong>June 20, 2019</strong> </div>
+                        <div><label>Tournament End:</label><strong>July 01, 2019</strong> </div>
+                        <div><label>Participant:</label><strong>10 team</strong> </div>
+                        <div><label>Tournament Organizer:</label><strong>Admin</strong> </div>
+                        <div><label class="prize">Prize:</label><label>1st place: $2000,2nd place: $1000, 3rd
+                                place:$500</label> </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <span class="badge premium-tournaments">Premium Tournaments</span>
+                    <div class="tournaments-image"><img src="img/tour 2.jpg" alt="no image">
+                    </div>
+                    <div class="tournaments-content">
+                        <h3>World Of Warcraft 2</h3>
+                        <div><label>Tournament Begins:</label><strong>June 20, 2019</strong> </div>
+                        <div><label>Tournament End:</label><strong>July 01, 2019</strong> </div>
+                        <div><label>Participant:</label><strong>10 team</strong> </div>
+                        <div><label>Tournament Organizer:</label><strong>Admin</strong> </div>
+                        <div><label class="prize">Prize:</label><label>1st place: $2000,2nd place: $1000, 3rd
+                                place:$500</label> </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="recent-reviews">
+            <h1>Recent Review</h1>
+            <div class="flex">
+                <div class="box">
+                    <span class="rating-badge gold">9.3</span>
+                    <div class="recent-review-image">
+                        <img src="img/review 1.jpg" alt="no image">
+                    </div>
+                    <div>
+                        <h4>Assasin`s</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.ipsum dolor sit amet</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <span class="rating-badge purple">9.5</span>
+                    <div class="recent-review-image">
+                        <img src="img/review 2.jpg" alt="no image">
+                    </div>
+                    <div>
+                        <h4>Doom</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.ipsum dolor sit amet</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <span class="rating-badge green">9.1</span>
+                    <div class="recent-review-image">
+                        <img src="img/review 3.jpg" alt="no image">
+                    </div>
+                    <div>
+                        <h4>Overwatch</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.ipsum dolor sit amet</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <span class="rating-badge violet">9.7</span>
+                    <div class="recent-review-image">
+                        <img src="img/reviews 4.jpg" alt="no image">
+                    </div>
+                    <div>
+                        <h4>GTA</h4>
+                       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.ipsum dolor sit amet</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="posts-comments">
+            <div class="flex">
+                <div class="game-warrior">
+                    <img src="img/logo.png" alt="no image">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.ipsum dolor sit amet</p>
+                    <img class="footer-graphics" src="img/footer-top-bg.png" alt="">
+                </div>
+                <div class="post-comments-box">
+                    <h3>Latest Post</h3>
+                    <div class="post-item">
+                        <img src="img/post1.jpg" alt="">
+                        <div>
+                            <h5>June 21,2019</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            <small>By:Admin</small>
+                        </div>
+                    </div>
+                    <div class="post-item">
+                        <img src="img/post2.jpg" alt="">
+                        <div>
+                            <h5>June 21,2019</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            <small>By:Admin</small>
+                        </div>
+                    </div>
+                    <div class="post-item">
+                        <img src="img/post3.jpg" alt="">
+                        <div>
+                            <h5>June 21,2019</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            <small>By:Admin</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-comments-box">
+                    <h3>Top Comment</h3>
+                    <div class="comments-item">
+                        <img src="img/com.jpg" alt="img">
+                        <div>
+                            <p><span class="author">Jame Smith</span><span>on</span>Lorem ipsum dolor sit amet
+                                consectetur. </p>
+                            <h5>June 21, 2019</h5>
+                        </div>
+                    </div>
+                    <div class="comments-item">
+                        <img src="img/comment2.jpg" alt="img">
+                        <div>
+                            <p><span class="author">Jame Smith</span><span>on</span>Lorem ipsum dolor sit amet
+                                consectetur. </p>
+                            <h5>June 21, 2019</h5>
+                        </div>
+                    </div>
+                    <div class="comments-item">
+                        <img src="img/comment3.jpg" alt="img">
+                        <div>
+                            <p><span class="author">Jame Smith</span><span>on</span>Lorem ipsum dolor sit amet
+                                consectetur. </p>
+                            <h5>June 21, 2019</h5>
+                        </div>
+                    </div>
+                    <div class="comments-item">
+                        <img src="img/comment4.jpg" alt="img">
+                        <div>
+                            <p><span class="author">Jame Smith</span><span>on</span>Lorem ipsum dolor sit amet
+                                consectetur. </p>
+                            <h5>June 21, 2019</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="flex">
+            <small>copyright &copy; 2022 All right reserved by Ishola Emmanuel Ayobami</small>
+
+            <ul>
+                <li>
+                    <a href="home.html">Home</a>
+
+                </li>
+                <li>
+                    <a href="game.html">Game</a>
+
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+
+                </li>
+                <li>
+                    <a href="forum.html">Forum</a>
+
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("nav-toggle").addEventListener("click", function () {
+            let navmenu = document.getElementById("nav-menu-container");
+            navmenu.style.display = navmenu.offsetParent === null ? "block" : "none";
+        })
+    </script>
+</body>
+
+</html>
